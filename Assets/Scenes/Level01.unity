@@ -2705,7 +2705,7 @@ MonoBehaviour:
   originalSpeed: 0
   decelaration: 10
   moneyValue: 0
-  PlaySound: {fileID: 0}
+  carSfx: {fileID: 8252765057391987055}
 --- !u!65 &992191768
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3168,7 +3168,7 @@ MonoBehaviour:
   originalSpeed: 0
   decelaration: 10
   moneyValue: 0
-  PlaySound: {fileID: 0}
+  carSfx: {fileID: 0}
 --- !u!65 &1159022773
 BoxCollider:
   m_ObjectHideFlags: 0

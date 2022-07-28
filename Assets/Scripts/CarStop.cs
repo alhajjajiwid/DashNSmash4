@@ -18,7 +18,7 @@ public class CarStop : MonoBehaviour
     public float decelaration = 10f;
     public int moneyValue;
 
-    public AudioSource PlaySound;
+    public AudioSource carSfx;
 
     private void Awake()
     {
@@ -79,11 +79,15 @@ public class CarStop : MonoBehaviour
     {
         do
         {
-
+            carSfx.Stop();
             dollyCart.m_Speed = Mathf.Lerp(dollyCart.m_Speed, minSpeed, decelaration * Time.deltaTime);
             yield return null;
+            carSfx.Play();
 
         } while (dollyCart.m_Speed > minSpeed);
+
+
+
     }
 
 
