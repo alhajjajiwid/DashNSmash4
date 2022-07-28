@@ -18,6 +18,8 @@ public class CarStop : MonoBehaviour
     public float decelaration = 10f;
     public int moneyValue;
 
+    public AudioSource PlaySound;
+
     private void Awake()
     {
         myOrder = FindObjectOfType<CollectOrder>();
@@ -32,12 +34,10 @@ public class CarStop : MonoBehaviour
         if(myOrder != null)
         {
             myOrder.orderCollected -= RestartCar;
+            
 
         }
         
-
-        //moneyValue = Random.Range(19, 101);
-        //GameController.Instance.currentJobValue = moneyValue;
 
         GameController.Instance.CollectOrder();
         car.GetComponent<CarController>().SlowDownCar();
