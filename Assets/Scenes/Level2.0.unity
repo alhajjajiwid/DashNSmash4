@@ -572,6 +572,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destuctionParticles: {fileID: 2788967799134744835, guid: de640f497bdc44043a9fd157472c4716, type: 3}
+  destroySfx: {fileID: 1877641372270670452}
+  hitSfx: {fileID: 1877641372270670453}
 --- !u!65 &372423308
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -923,6 +925,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destuctionParticles: {fileID: 2788967799134744835, guid: de640f497bdc44043a9fd157472c4716, type: 3}
+  destroySfx: {fileID: 1877641372270670452}
+  hitSfx: {fileID: 1877641372270670453}
 --- !u!65 &479404840
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2273,6 +2277,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destuctionParticles: {fileID: 2788967799134744835, guid: de640f497bdc44043a9fd157472c4716, type: 3}
+  destroySfx: {fileID: 1877641372270670452}
+  hitSfx: {fileID: 1877641372270670453}
 --- !u!65 &1073539553
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3540,6 +3546,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 202ee08e2d562514b97f951731020077, type: 3}
+--- !u!82 &1675718220 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8797852439763227256, guid: 202ee08e2d562514b97f951731020077, type: 3}
+  m_PrefabInstance: {fileID: 1675718219}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1720222814
 GameObject:
   m_ObjectHideFlags: 0
@@ -3588,6 +3599,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destuctionParticles: {fileID: 2788967799134744835, guid: de640f497bdc44043a9fd157472c4716, type: 3}
+  destroySfx: {fileID: 1877641372270670452}
+  hitSfx: {fileID: 1877641372270670453}
 --- !u!65 &1720222817
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3860,6 +3873,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destuctionParticles: {fileID: 2788967799134744835, guid: de640f497bdc44043a9fd157472c4716, type: 3}
+  destroySfx: {fileID: 1877641372270670452}
+  hitSfx: {fileID: 1877641372270670453}
 --- !u!65 &1820908584
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4572,6 +4587,16 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3219160673065596224, guid: c6442c0b6a240874eae32d5fb4c9e9e7, type: 3}
   m_PrefabInstance: {fileID: 1877641372270670450}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1877641372270670452 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7694707874491596760, guid: c6442c0b6a240874eae32d5fb4c9e9e7, type: 3}
+  m_PrefabInstance: {fileID: 1877641372270670450}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1877641372270670453 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 5923676077401227872, guid: c6442c0b6a240874eae32d5fb4c9e9e7, type: 3}
+  m_PrefabInstance: {fileID: 1877641372270670450}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4245244306310785841
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4613,7 +4638,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3403649047362605635, guid: 2a53a56e7295ca542a818dc5add1c61e, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4245244306237047077, guid: 2a53a56e7295ca542a818dc5add1c61e, type: 3}
       propertyPath: m_Name
@@ -4709,7 +4734,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8216188152234555779, guid: 2a53a56e7295ca542a818dc5add1c61e, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8216188152234555805, guid: 2a53a56e7295ca542a818dc5add1c61e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -4882,6 +4907,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1905024360, guid: 0b8796fd7b4b417468b95ec196e4e65f, type: 3}
+      propertyPath: deliverSFX
+      value: 
+      objectReference: {fileID: 1675718220}
+    - target: {fileID: 1905024360, guid: 0b8796fd7b4b417468b95ec196e4e65f, type: 3}
+      propertyPath: deliverSign
+      value: 
+      objectReference: {fileID: 687743239}
     - target: {fileID: 843142058613622003, guid: 0b8796fd7b4b417468b95ec196e4e65f, type: 3}
       propertyPath: m_Size.y
       value: 10.951222

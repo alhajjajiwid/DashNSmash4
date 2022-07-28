@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7074661414171954356
+--- !u!1 &8636861672582886
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,40 +8,40 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7903057645515176217}
-  - component: {fileID: 7176642892187003396}
+  - component: {fileID: 1979550318499921122}
+  - component: {fileID: 6567515652272915646}
   m_Layer: 0
-  m_Name: ClickAudio
+  m_Name: Boost sound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7903057645515176217
+--- !u!4 &1979550318499921122
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7074661414171954356}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 540, y: 960, z: 0}
+  m_GameObject: {fileID: 8636861672582886}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 12.481934, y: -638.0845, z: -290.8989}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &7176642892187003396
+--- !u!82 &6567515652272915646
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7074661414171954356}
+  m_GameObject: {fileID: 8636861672582886}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -833474681786791557, guid: c1bbcd5e8019893418fc26ff4b7c6275, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 19b10fbada87d8d4d86763ae41909fa0, type: 3}
+  OutputAudioMixerGroup: {fileID: -874083399572439406, guid: c1bbcd5e8019893418fc26ff4b7c6275, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 32f7751f3e2e22746bdd0e89762fc526, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -87,7 +87,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.593
       inSlope: 0
       outSlope: 0
       tangentMode: 0
